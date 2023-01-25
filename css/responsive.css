@@ -2,26 +2,26 @@
     Version: 1.0
 /****************************************** */
 @media (min-width: 1200px){
-	.top-space{
+	/* .top-space{
 		height: 100px;
 		background-color: tomato;
-	}
+	} */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/* .top-space{
+		height: 100px;
+		background-color: rgb(0, 0, 0);
+	} */
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		margin: 0px 5px;
 	}
-	.top-space{
-		height: 100px;
-		background-color: rgb(0, 0, 0);
-	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-	.top-space{
+	/* .top-space{
 		height: 100px;
 		background-color: tomato;
-	}
+	} */
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
 	}
@@ -110,10 +110,10 @@
 	}
 }
 @media (max-width: 767px) {
-	.top-space{
+	/* .top-space{
 		height: 100px;
 		background-color: blue;
-	}
+	} */
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
 	}
@@ -243,10 +243,10 @@
 	}
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
-	.top-space{
-		height: 55px;
+	/* .top-space{
+		height: 95px;
 		background-color:chartreuse;
-	}
+	} */
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
 	}

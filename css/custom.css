@@ -3,6 +3,22 @@ p{
     font-size: 17px;
     text-align: justify;
 }
+
+.g-map{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* .inline{
+    width: 100%;
+    margin: auto;
+} */
+
+.g-map iframe{
+    width: 100%;
+}
+
 .top-space{ 
     width: 100%;
 }
@@ -42,27 +58,25 @@ p{
 
 /* Bullet  Star */
 
-.about-bullet ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+.bullet ul { list-style: none; } /* Remove default bullets */
 
-.about-bullet ul li {
+.bullet ul li {
     position: relative;
+    text-align: justify;
     font-size: 16px;
-    padding: 5px 0px 0px 20px;
+    padding: 0px 0px 0px 5px;
 }
+.bullet li::before {
+    content: "\25CE"; /* Unicode bullet symbol */
 
-.about-bullet ul li::before {
     position: absolute;
-    width: 9px;
-    height: 9px;
-    left: 0;
-    top: 13px;
+    width: 12px;
+    height: 12px;
+    left: -20px;
+    top: 8px;
     content: '';
-    border-right: 2px solid #0bf;
-    border-top: 2px solid #0bf;
+    border-right: 2px solid tomato;
+    border-top: 2px solid tomato;
     transform: rotate(45deg);
 }
 
