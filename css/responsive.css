@@ -1,11 +1,28 @@
 /******************************************
     Version: 1.0
 /****************************************** */
+@media (min-width: 1900px){
+
+}
+
 @media (min-width: 1200px){
 	.top-space{
 		height: 71px;
 		background-color: #4C5A7D;
 	}
+	.home-title-box{
+		min-height: 600px;
+	}
+	.all-title-box-height{
+		min-height: 400px;
+	}
+	#title-ra{
+		font-size: 55px;
+	}
+	#title-msc{
+		font-size: 40px;
+	}
+	
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -13,14 +30,44 @@
 		height: 71px;
 		background-color: #4C5A7D;
 	} 
+	
+	#title-ra{
+		font-size: 55px;
+	}
+	#title-msc{
+		font-size: 40px;
+	}
+	
+
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		margin: 0px 5px;
+	}
+	.home-title-box{
+		min-height: 490px;
+	}
+	.all-title-box-height{
+		min-height: 350px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.top-space{
 		height: 55px;
 		background-color: #4C5A7D;
+	}
+
+	#title-ra{
+		font-size: 55px;
+	}
+	#title-msc{
+		font-size: 40px;
+	}
+	
+
+	.home-title-box{
+		min-height: 400px;
+	}
+	.all-title-box-height{
+		min-height: 300px;
 	}
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
@@ -114,6 +161,14 @@
 		height: 55px;
 		background-color: #4C5A7D;
 	}
+	#title-ra{
+		font-size: 45px;
+	}
+	#title-msc{
+		font-size: 30px;
+	}
+	
+
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
 	}
@@ -170,8 +225,11 @@
 	.footer-distributed .footer-right{
 		float: none;
 	}
-	.all-title-box{
-		min-height: 200px;
+	.home-title-box{
+		min-height: 300px;
+	}
+	.all-title-box-height{
+		min-height: 300px;
 	}
 	.all-title-box h1{
 		font-size: 34px;
@@ -242,11 +300,22 @@
 		margin-bottom: 30px;
 	}
 }
+
+
 @media only screen and (max-width: 599px) {
 	.top-space{
 		height: 55px;
 		background-color: #4c5a7d;
 	}
+
+	#title-ra{
+		font-size: 35px;
+	}
+	#title-msc{
+		font-size: 20px;
+	}
+	
+
 	.top-navbar .navbar-light .navbar-nav .nav-item{
 		padding: 0px;
 	}
@@ -311,8 +380,11 @@
 	.footer-distributed .footer-right{
 		float: none;
 	}
-	.all-title-box{
-		min-height: 200px;
+	.home-title-box{
+		min-height: 250px;
+	}
+	.all-title-box-height{
+		min-height: 250px;
 	}
 	.all-title-box h1{
 		font-size: 34px;
