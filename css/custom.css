@@ -82,3 +82,12 @@ p{
 
 
 /*  Bullet End  */
+
+/* Contact Details */
+.contact-details{
+    padding-left: 20px;
+}
+.contact-details-svg{
+    width: 50px;
+    padding-top: 20px;
+}
