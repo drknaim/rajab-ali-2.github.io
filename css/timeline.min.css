@@ -400,6 +400,14 @@
 	}
 }
 
-
 /*# sourceMappingURL=timeline.min.css.map */
+
+
+@media (min-width: 701px) and (max-width: 991px){
+
+	.timeline__content{
+		width: 200px;
+	}
+
+}
 
